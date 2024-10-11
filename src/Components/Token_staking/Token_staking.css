@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root{
+    --bs-table-striped-bg: red  !important;
+}
+
+.main_token_staking {
+  padding: 40px 10px;
+  /* background: url(../Assets/tkn.png); */
+  position: relative;
+}
+
+
+
+.tknStaing {
+  background-color: linear-gradient(45deg, #2e3192, #00ffe9) !important;
+  border-radius: 8px;
+  padding: 10px 40px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+  width: 100%;
+}
+
+.bord_clr {
+  border-radius: 8.7px !important;
+}
+
+.tkn_head {
+  color: #00ffe9;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  font-family: "Coda", system-ui;
+  margin: 1.8rem 0 0rem 0;
+}
+
+.tkn_para {
+  font-size: 28px;
+  color: #fff;
+  text-align: center;
+}
+
+.nft_upper_stking {
+  border: none;
+  text-align: center;
+  background-color: transparent !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0px;
+  height: 100%;
+  color: #d1d1d1;
+}
+
+.main_apy_box {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 0px;
+  align-items: center; /* Center vertically */
+  justify-items: center !important; /* Center horizontally */
+}
+.main_apy_boxxxx {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0px;
+  align-items: center; /* Center vertically */
+  justify-items: center !important; /* Center horizontally */
+}
+
+.inner_apy_box {
+  border: 1px solid #fff;
+  padding: 10px 0px;
+  background-color: linear-gradient(45deg, #2e3192, #00ffe9) !important;
+  border-radius: 4px;
+  cursor: pointer;
+  /* width: 100%; */
+}
+.activeInner{
+  background-color: linear-gradient(45deg, #2e3192, #00ffe9) !important;
+  border: 1px solid #fff;
+
+}
+
+.inner_apy_box h1 {
+  font-size: 24px;
+  font-size: 500;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.bort {
+  border-top: 1px solid #00ffe9;
+}
+.activebort{
+  border-top: 1px solid #fff;
+
+
+}
+
+.apy_rate {
+  font-family: "Caveat", cursive !important;
+  text-align: center;
+  margin-bottom: 0px;
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 0px 20px;
+}
+
+.wallet_nf {
+  font-family: "Coda", system-ui;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  color: white;
+}
+
+.inner_lever {
+  background: linear-gradient(35deg, rgb(46, 49, 146), rgb(0, 255, 233));
+  width: 165px;
+  border-radius: 12px;
+  padding: 10px 4px;
+  cursor: pointer;
+}
+.level_num {
+  font-weight: 500;
+  font-size: 16px;
+  color: #fdfdfd;
+}
+
+.stk_amt {
+  font-size: 24px;
+  color: white !important;
+  font-weight: 400;
+}
+
+.amnt_main {
+  border: 2px solid #00ffe9;
+  background-color: rgba(191, 188, 192, 0.75);
+  border-radius: 12px !important;
+  padding-right: 15px ;
+}
+
+.dis_app {
+    border-radius: 12px ;
+    border: 2px solid #00ffe9;
+    padding: 10px 20px ;
+    font-weight: 400;
+    font-size: 24px;
+    background: transparent;
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+
+
+.approved {
+    border-radius: 12px ;
+    border: none;
+    padding: 10px 20px ;
+    font-weight: 400;
+    font-size: 24px;
+    color: white;
+    background: linear-gradient(45deg, #2e3192, #00ffe9) !important;
+    text-align: center;
+    width: 100%;
+
+}
+.stk_amnt_in {
+  background-color: transparent;
+
+  border: none;
+  font-size: 28px;
+  padding: 10px 20px;
+  color: white;
+  font-weight: 400;
+  border-radius: 12px;
+}
+.stk_amnt_in:focus{
+    outline: none;
+}
+
+.stk_amnt_in::placeholder{
+    color: white;
+}
+
+.max_btn {
+    border: none;
+    background: transparent;
+    font-size: 28px;
+    color: white;
+    font-weight: 400;
+}
+
+.claim_card {
+    border: 2px solid #00ffe9;
+    background-color: linear-gradient(45deg, #2e3192, #00ffe9) !important;
+    padding: 20px 15px ;
+    border-radius: 12px ;
+}
+
+.content_claim_box h1 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Coda", system-ui;
+
+}
+
+.content_claim_box p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.card_claim_pic {
+    border-radius: 50%;
+
+}
+
+
+.claim_card_btn_outlined {
+    width: 100%;
+    background-color: transparent;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 500;
+
+    padding: 10px 25px;
+    border: 1px solid #00ffe9;
+    font-size: 16px;
+
+}
+
+.lower_stake_btn {
+  padding: 10px 25px;
+  border: none;
+  color: white;
+  background: linear-gradient(35deg, rgb(46, 49, 146), rgb(0, 255, 233));
+  text-align: center;
+  font-size: 22px;
+  font-weight: 400;
+  border-radius: 4px;
+  width: 100%;
+}
+.btn_bg_main_web{
+  background-color: linear-gradient(45deg, #2e3192, #00ffe9) !important;
+
+}
+
+.tskea {
+    color: #00ffe9;
+    font-size: 40px;
+    font-weight: 800;
+    font-family: "Coda", system-ui;
+
+}
+
+.refres {
+    background: linear-gradient(45deg, #2e3192, #00ffe9);
+    color: white;
+    font-size: 20px;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 30px;
+}
+
+th{
+    font-size: 18px !important;
+    color: #fff !important;
+    font-weight: 500 !important;
+    font-family: "Roboto", sans-serif !important;
+    text-align: center !important;
+    background: linear-gradient(35deg, rgb(46, 49, 146), rgb(0, 255, 233));
+}
+.table-striped>tbody>tr:nth-of-type(odd) {
+background:red !important;
+    ;
+}
+
+
+td{
+    color: #fff ;
+    font-size: 16px !important;
+  font-family: "Work Sans", sans-serif !important;
+  text-align: center !important;
+
+}
+
+.bg_row
+{
+    background: #F8F6FF !important;
+}
+.table {
+    --bs-table-color-type: initial;
+    --bs-table-bg-type: initial;
+    --bs-table-color-state: initial;
+    --bs-table-bg-state: initial;
+    --bs-table-color: var(--bs-emphasis-color);
+    --bs-table-bg: var(--bs-body-bg);
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-accent-bg: transparent;
+    /* --bs-table-striped-color: ; */
+    --bs-table-striped-bg: #F8F6FF !important;
+    /* --bs-table-active-color: var(--bs-emphasis-color); */
+    /* --bs-table-active-bg: rgba(var(--bs-emphasis-color-rgb), 0.1); */
+    /* --bs-table-hover-color: var(--bs-emphasis-color); */
+    /* --bs-table-hover-bg: rgba(var(--bs-emphasis-color-rgb), 0.075); */
+    /* width: 100%; */
+    /* margin-bottom: 1rem; */
+    /* vertical-align: top; */
+    /* border-color: var(--bs-table-border-color); */
+}
+
+
+
+@media only screen and (max-width:600px){
+  .tknStaing {
+    padding: 10px 20px ;
+  }
+  .tkn_head {
+    font-size: 32px;
+  }
+  .main_apy_box{
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .main_apy_boxxxx{
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap:10px;
+
+
+  }
+  .refres  {
+    padding: 10px 20px;
+  }
+
+  .main_apy_box{
+    grid-gap: 10px !important;
+  }
+  .tskea{
+    font-size: 22px;
+  }
+  th,td {
+    white-space: nowrap;
+  }
+
+  .inner_lever{
+    width: 100% !important;
+  }
+  .inner_apy_box{
+    width: 100% !important;
+  }
+}

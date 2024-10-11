@@ -1,0 +1,122 @@
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root.Mui-selected {
+    border-radius: 20px;
+    color: #fff !important;
+    font-size: 12px;
+
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #2e3192, #00ffe9) !important
+  }
+  .card_claim_piccc{
+    width: 130px;
+  }
+
+  .card_claim_pic {
+    width: 80px !important;
+  }
+.activeInner{
+  background: linear-gradient(35deg, rgb(46, 49, 146), rgb(0, 255, 233)) !important;
+}
+
+
+  .MuiTabs-flexContainer {
+    border: 2px solid #00ffe9;
+    border-radius: 50pc;
+    display: flex !important;
+    justify-content: center !important;
+    /* left: 27.5rem; */
+    margin: 1rem 0 !important;
+    padding: 0px ;
+    /* position: relative; */
+    margin: auto !important;
+    width: max-content !important;
+  }
+  .css-orq8zk
+  {
+      width: max-content !important;
+      border-radius: 50pc !important;
+      display: flex !important;
+      margin: auto!important;
+      padding: 0!important;
+  }
+
+
+
+
+
+
+  .css-k008qs {
+    justify-content: center !important;
+  }
+
+
+
+
+
+
+  .css-1q2h7u5 {
+    color: #fff !important;
+    font-size: 12px !important;
+  }
+
+  .css-1q2h7u5.Mui-selected {
+    color: #fff !important;
+    font-size: 12px;
+
+    background: linear-gradient(45deg, #2e3192, #00ffe9) !important;
+    border-radius: 20px !important;
+    text-transform: uppercase;
+  }
+
+
+
+  .css-ttwr4n {
+    display: none !important;
+  }
+
+  .css-19kzrtu {
+    padding: 0px !important;
+  }
+
+  .css-1h9z7r5-MuiButtonBase-root-MuiTab-root {
+    background-color: transparent !important;
+    color: #000 !important;
+    /* border: 2px solid red !important; */
+  }
+
+  .css-1aquho2-MuiTabs-indicator {
+    display: none !important;
+  }
+
+  @media only screen and (max-width: 600px) {
+
+
+
+
+
+    .MuiTabs-flexContainer {
+      width: 90%;
+      position: static !important;
+      margin: 1rem 0px;
+    }
+
+  }
+
+
+
+  @media only screen and (min-width:601px) and (max-width:999px){
+
+  }
+
+  .td{
+    color: #00ffe9 !important;
+  }
+  .claim_card_btnnnn {
+    width: 100%;
+    background-color: #2e3192!important; 
+    border-radius: 4px;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    font-weight: 500;
+    font-size: 16px;
+}

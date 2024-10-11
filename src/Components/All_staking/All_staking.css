@@ -1,0 +1,38 @@
+.main_all_staking{
+ 
+    padding: 80px 10px ;
+}
+
+.all_staing_head  {
+    font-size: 40px;
+    color: #00ffe9;
+    font-family: "Coda", system-ui;
+text-align: center;
+font-weight: 700;
+}
+
+.all_stk_para {
+    color: #fff;
+    font-size: 20px;
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .all_staing_head {
+        font-size: 28px;
+    }
+    .stk_amnt_in{
+        width: 80%;
+    }
+    .apy_rate {
+        font-size: 17px !important;
+        padding: 6px    !important;
+        white-space: nowrap;
+    }
+    .inner_lever {
+        padding: 10px 7px !important;
+    }
+}

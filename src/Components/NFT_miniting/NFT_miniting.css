@@ -1,0 +1,178 @@
+.bord_clr {
+  border: 2px solid #AA00B8;
+}
+
+.main_nft_minitig {
+  padding: 50px 10px;
+  /* background:url(../Assets/nft_mint.png); */
+  position: relative;
+}
+
+.tkn_sting {
+  font-size: 26px;
+  color: #fdfdfd;
+  margin-bottom: 0px;
+}
+
+.tkn_main_s {
+  text-align: center;
+  padding: 10px 15px;
+}
+
+.nft_mint_btn {
+  background: #AA00B8;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 26px;
+  font-weight: 600;
+  padding: 10px 15px;
+  color: #D1D1D1;
+}
+
+.mint_he {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+  font-family: "Coda", system-ui;
+  font-weight: 800;
+  margin: 1.8rem 0;
+}
+
+.minitn_para {
+  font-weight: 400;
+  font-size: 24px;
+  color: #000;
+  text-align: center;
+}
+
+.mint_nft_card {
+  border: 1px solid #00ffe9;
+  border-radius: 13px !important;
+
+  /* padding-bottom:20px   ; */
+}
+
+.mint_img {
+  border-top-left-radius: 13px !important;
+  border-top-right-radius: 13px !important;
+  height: 279px !important;
+  width: 100%;
+}
+.min_video{
+  border-top-left-radius: 13px !important;
+  border-top-right-radius: 13px !important;
+}
+
+.mint_box_content {
+  background-color:  linear-gradient(45deg, #2e3192, #00ffe9) !important;
+  padding: 25px 10px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+
+.mint_box_content h4 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  text-align: center;
+}
+
+.site_pop h6 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.mint_box_content p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mint_btn_box {
+  background: linear-gradient(45deg, #2e3192, #00ffe9) !important;
+  border-radius: 8px;
+  padding: 10px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  border: none;
+}
+
+
+@media only screen and (max-width:600px) {
+  .tkn_sting {
+    font-size: 16px;
+    margin-bottom: 0px;
+  }
+
+  .nft_mint_btn {
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .MuiTabs-scroller MuiTabs-fixed css-jpln7h-MuiTabs-scroller {
+    overflow: scroll !important;
+  }
+}
+
+
+/* .centered-table {
+    margin: auto;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: center;
+    background-color: black;
+  }
+
+   */
+
+/* YourComponent.css */
+
+.centered-table {
+  margin: auto;
+  overflow-x: auto;
+  /* Enable horizontal scrolling on small screens */
+  justify-content: center;
+  display: flex;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+  /* Adjust width to 100% for better responsiveness */
+}
+
+th,
+td {
+  border: 1px solid rgb(255, 255, 255);
+  padding: 8px;
+  text-align: center;
+  background-color: #fff;
+  color: black !important;
+}
+
+/* Apply specific styles for screens with a maximum width of 600px (adjust as needed) */
+@media (max-width: 600px) {
+  .centered-table {
+    overflow: auto;
+    /* Enable both horizontal and vertical scrolling on small screens */
+    display: block;
+    /* Allow the scrollbar to appear */
+  }
+
+  th,
+  td {
+    font-size: 12px;
+  }
+}

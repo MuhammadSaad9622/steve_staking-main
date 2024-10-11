@@ -1,0 +1,76 @@
+.how_mk_mian {
+    padding: 60px 10px;
+    /* background: url(../Assets/hmk.png),rgba(0, 0, 0, 0.9); */
+
+}
+
+.hmkw {
+    font-family: "Coda", system-ui;
+
+font-size: 44px;
+font-weight: 800;
+line-height: 54px;
+letter-spacing: 0em;
+text-align: center;
+color: #00ffe9;
+}
+
+.how_mk_wo h6 {
+    
+font-size: 24px;
+font-weight: 600;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: center;
+color: #fff;
+margin-bottom: 1rem;
+}
+
+.how_mk_wo h1 {
+    /* font-family: Impact; */
+  font-family: "Poppins", sans-serif !important;
+
+font-size: 28px;
+font-weight: 400;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: center;
+margin: 1rem 0  ;
+color: #fff;
+}
+.how_mk_wo p {
+    color:  #fff;
+   
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+
+}
+
+.lines_sys{
+    position: relative;
+}
+
+.side_line {
+    position: absolute;
+    width: 70%;
+    height: 2px;
+    left: 65%;
+    background: #00ffe9;
+    top: 35%;
+}
+
+.steps_row {
+    margin: 2.5rem 0 !important;
+}
+
+
+
+@media only screen and (max-width:600px){
+    .hmkw {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
